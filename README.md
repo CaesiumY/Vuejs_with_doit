@@ -28,6 +28,5 @@
 
 [[05-1 뷰 템플릿]](https://github.com/CaesiumY/Vuejs_with_doit/tree/master/05-1)
 
-## Quiz
+## [Quiz](https://github.com/CaesiumY/Vuejs_with_doit/tree/master/quiz)
 
-[Quiz](https://github.com/CaesiumY/Vuejs_with_doit/tree/master/quiz)
