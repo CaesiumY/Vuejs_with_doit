@@ -28,7 +28,8 @@
             data: {
                 flag: true,
                 systems: ['android', 'ios', 'window'],
-                uid: 10
+                uid: 10,
+                message: 'Hello Vue.js!'
             },
             methods: {
                 popupAlert: function() {
@@ -38,6 +39,11 @@
                     console.log(event)
                 }
             },
+            computed: {
+                reversedMessage: function() {
+                    return this.message.split('').reverse().join('')
+                }
+            },            
         }).$mount('#app')
     </script>
 
