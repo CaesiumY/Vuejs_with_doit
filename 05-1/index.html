@@ -11,7 +11,7 @@
 
 <body>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.2/dist/vue.js"></script>
-    
+
     <div id="app">
         <a v-if="flag">두잇 Vue.js</a>
         <ul>
@@ -21,6 +21,8 @@
         <h5 v-bind:id="uid">뷰 입문서</h5>
         <button @click="popupAlert">경고 창 버튼</button>
         <button @click="clickBtn">클릭</button>
+        <p>{{ message }}</p>
+        <input v-model="message" />
     </div>
 
     <script>
@@ -32,18 +34,23 @@
                 message: 'Hello Vue.js!'
             },
             methods: {
-                popupAlert: function() {
+                popupAlert: function () {
                     return alert('경고창 표시')
                 },
-                clickBtn: function(event) {
+                clickBtn: function (event) {
                     console.log(event)
                 }
             },
             computed: {
-                reversedMessage: function() {
+                reversedMessage: function () {
                     return this.message.split('').reverse().join('')
                 }
-            },            
+            },
+            watch: {
+                message: function (data) {
+                    console.log("message의 값이 바뀝니다 : ", data)
+                }
+            },
         }).$mount('#app')
     </script>
 
