@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue Template Quiz</title>
+
+</head>
+
+<body>
+    <div id="app">
+        <header>
+            <h3>
+                {{message}}
+                {{message2}}
+            </h3>
+        </header>
+        <section>
+            <p v-bind:id="uid">{{uid}}</p>
+            <button @click="clickBtn">alert</button>
+            <button @click="plusUid">Plus</button>
+            <ul v-if="flag">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.2/dist/vue.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
