@@ -28,5 +28,7 @@
 
 [[05-1 뷰 템플릿]](https://github.com/CaesiumY/Vuejs_with_doit/tree/master/05-1)
 
+[[05-2 뷰 프로젝트 구성]](https://github.com/CaesiumY/Vuejs_with_doit/tree/master/05-2)
+
 ## [Quiz](https://github.com/CaesiumY/Vuejs_with_doit/tree/master/quiz)
 
