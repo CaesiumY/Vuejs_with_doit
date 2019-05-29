@@ -30,5 +30,10 @@
 
 [[05-2 뷰 프로젝트 구성]](https://github.com/CaesiumY/Vuejs_with_doit/tree/master/05-2)
 
+
+## Chapter 6. 실전 애플리케이션 만들기
+
+[[06-2 프로젝트 생성하고 구조 확인하기]](https://github.com/CaesiumY/Vuejs_with_doit/tree/master/06-2)
+
 ## [Quiz](https://github.com/CaesiumY/Vuejs_with_doit/tree/master/quiz)
 
