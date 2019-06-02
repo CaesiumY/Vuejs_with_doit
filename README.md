@@ -35,5 +35,9 @@
 
 [[06-2 프로젝트 생성하고 구조 확인하기]](https://github.com/CaesiumY/Vuejs_with_doit/tree/master/06-2)
 
+[[06-3 컴포넌트 생성하고 등록하기]](https://github.com/CaesiumY/Vuejs_with_doit/tree/master/06-2)
+
+[[06-4 컴포넌트 내용 구현하기]](https://github.com/CaesiumY/Vuejs_with_doit/tree/master/06-2)
+
 ## [Quiz](https://github.com/CaesiumY/Vuejs_with_doit/tree/master/quiz)
 
