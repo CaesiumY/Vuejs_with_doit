@@ -30,5 +30,29 @@ export default {
 </script>
 
 <style scoped>
-
+    ul {
+        list-style-type: none;
+        padding-left: 0px;
+        margin-top: 0;
+        text-align: left;
+    }
+    li {
+        display: flex;
+        min-height: 50px;
+        height: 50px;
+        line-height: 50px;
+        margin: 0.6rem 0.6rem;
+        padding: 0 0.9rem;
+        background: white;
+        border-radius: 5px;
+    }
+    .checkBtn {
+        line-height: 50px;
+        color: #62acde;
+        margin-right: 15px;
+    }
+    .removeBtn {
+        margin-left: auto;
+        color: #de4343;
+    }
 </style>
