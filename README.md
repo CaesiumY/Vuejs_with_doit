@@ -39,5 +39,7 @@
 
 [[06-4 컴포넌트 내용 구현하기]](https://github.com/CaesiumY/Vuejs_with_doit/tree/master/06-2)
 
+[[06-5 기존 애플리케이션 구조의 문제점 해결하기]](https://github.com/CaesiumY/Vuejs_with_doit/tree/master/06-2)
+
 ## [Quiz](https://github.com/CaesiumY/Vuejs_with_doit/tree/master/quiz)
 
