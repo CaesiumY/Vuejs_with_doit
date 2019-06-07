@@ -41,5 +41,7 @@
 
 [[06-5 기존 애플리케이션 구조의 문제점 해결하기]](https://github.com/CaesiumY/Vuejs_with_doit/tree/master/06-2)
 
+[[06-6 더 나은 사용자 경험을 위한 기능 추가하기]](https://github.com/CaesiumY/Vuejs_with_doit/tree/master/06-2)
+
 ## [Quiz](https://github.com/CaesiumY/Vuejs_with_doit/tree/master/quiz)
 
