@@ -1,19 +1,17 @@
 <template>
   <div>
     App 컴포넌트 <br>
-    <input id="calendar">
+    <datepicker></datepicker>
   </div>
 </template>
 
 <script>
+import datepicker from './datepicker.vue';
+
   export default {
-    created() {
-      console.log($.fn.jquery)
-      console.log($.ui.version)
-    },
-    mounted() {
-      $('#calendar').datepicker()
-    },
+    components: {
+      datepicker
+    }
   }
 </script>
 
